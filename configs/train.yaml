@@ -1,0 +1,38 @@
+# Training Configuration
+
+# Model
+watermark_length: 32
+image_size: 256
+residual_scale: 0.1
+
+# Training
+batch_size: 16
+num_epochs: 100
+learning_rate: 0.001
+lambda_watermark: 5.0
+
+# Attack
+attacks:
+  - gaussian_noise
+  - jpeg_compression
+  - gaussian_blur
+  - resize
+  - crop
+attack_prob: 0.8
+
+# Attack parameters
+noise_std: 0.02
+jpeg_quality: 50
+blur_kernel_size: 5
+resize_ratio: 0.7
+crop_ratio: 0.8
+
+# Data
+train_dir: "dataset/train"
+val_dir: "dataset/val"
+num_workers: 4
+
+# Logging
+save_interval: 10
+log_interval: 50
+experiment_dir: "experiments"
