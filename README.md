@@ -46,7 +46,14 @@ pip install -r requirements.txt
 
 ### 3. Prepare Dataset
 
-Place training images in `dataset/train/`. See [dataset/README.md](dataset/README.md) for details.
+Download DIV2K automatically (supports resume on interruption):
+```bash
+python scripts/download_div2k.py
+```
+
+The script resumes from where it left off if interrupted — just re-run it. It retries up to 10 times with exponential backoff, verifies zip integrity before extraction, and skips already-extracted images.
+
+Or manually place training images in `dataset/train/`. See [dataset/README.md](dataset/README.md) for details.
 
 ## Usage
 

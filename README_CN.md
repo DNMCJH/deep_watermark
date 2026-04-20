@@ -116,6 +116,8 @@ pip install -r requirements.txt
 python scripts/download_div2k.py
 ```
 
+下载脚本支持断点续传：网络中断后重新运行即可从断点继续，无需重新下载。脚本会自动重试（最多 10 次，指数退避），并在解压前验证 zip 完整性。已解压的图片也会跳过，不会重复解压。
+
 或手动将图片放入 `dataset/train/` 目录。详见 [dataset/README.md](dataset/README.md)。
 
 ### 4. 验证框架
