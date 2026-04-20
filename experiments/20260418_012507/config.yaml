@@ -1,0 +1,25 @@
+attack_prob: 0.8
+attacks:
+- gaussian_noise
+- jpeg_compression
+- gaussian_blur
+- resize
+- crop
+batch_size: 4
+blur_kernel_size: 5
+crop_ratio: 0.8
+experiment_dir: experiments
+image_size: 256
+jpeg_quality: 50
+lambda_watermark: 5.0
+learning_rate: 0.001
+log_interval: 50
+noise_std: 0.02
+num_epochs: 3
+num_workers: 4
+residual_scale: 0.1
+resize_ratio: 0.7
+save_interval: 10
+train_dir: dataset/train
+val_dir: dataset/val
+watermark_length: 32

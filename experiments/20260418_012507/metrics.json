@@ -1,0 +1,26 @@
+[
+  {
+    "epoch": 1,
+    "train_loss": 3.514205511411031,
+    "train_image_loss": 0.001921383805327221,
+    "train_watermark_loss": 0.7024568239847819,
+    "val_psnr": 24.13815439579316,
+    "val_bit_accuracy": 0.483203125
+  },
+  {
+    "epoch": 2,
+    "train_loss": 3.4836581958664787,
+    "train_image_loss": 0.005738059257338238,
+    "train_watermark_loss": 0.6955840296215481,
+    "val_psnr": 22.20302800667804,
+    "val_bit_accuracy": 0.527734375
+  },
+  {
+    "epoch": 3,
+    "train_loss": 3.439056294494205,
+    "train_image_loss": 0.006053982355580148,
+    "train_watermark_loss": 0.6866004649135802,
+    "val_psnr": 19.87154067818428,
+    "val_bit_accuracy": 0.562109375
+  }
+]
