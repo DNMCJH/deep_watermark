@@ -5,6 +5,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 import kornia.augmentation as K
+from kornia.enhance import jpeg_codec_differentiable
 
 
 def gaussian_noise(image, std=0.02):
@@ -42,7 +43,6 @@ def crop_attack(image, ratio=0.8):
 
 def jpeg_attack(image, quality=50):
     """Differentiable JPEG approximation using kornia."""
-    from kornia.enhance import jpeg_codec_differentiable
     q = torch.tensor([quality], dtype=image.dtype, device=image.device)
     return jpeg_codec_differentiable(image, jpeg_quality=q)
 
@@ -70,6 +70,8 @@ class AttackLayer(nn.Module):
 
         enabled = cfg.get("attacks", list(self.attacks.keys()))
         self.enabled_attacks = [a for a in enabled if a in self.attacks]
+        if not self.enabled_attacks:
+            raise ValueError("No valid attacks enabled. Check 'attacks' in config.")
 
     def forward(self, image):
         """

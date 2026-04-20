@@ -10,6 +10,10 @@ batch_size: 16
 num_epochs: 100
 learning_rate: 0.001
 lambda_watermark: 5.0
+seed: 42
+grad_clip_norm: 1.0
+scheduler: cosine        # cosine | plateau | none
+warmup_epochs: 5
 
 # Attack
 attacks:

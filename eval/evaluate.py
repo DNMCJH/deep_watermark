@@ -21,7 +21,7 @@ def main():
 
     device = "cuda" if torch.cuda.is_available() else "cpu"
 
-    ckpt = torch.load(args.checkpoint, map_location=device, weights_only=False)
+    ckpt = torch.load(args.checkpoint, map_location=device, weights_only=True)
     config = ckpt["config"]
 
     encoder = WatermarkEncoder(

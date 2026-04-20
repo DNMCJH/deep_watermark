@@ -15,7 +15,7 @@ from data.watermark_generator import generate_watermark
 @st.cache_resource
 def load_model(checkpoint_path):
     device = "cuda" if torch.cuda.is_available() else "cpu"
-    ckpt = torch.load(checkpoint_path, map_location=device, weights_only=False)
+    ckpt = torch.load(checkpoint_path, map_location=device, weights_only=True)
     config = ckpt["config"]
 
     encoder = WatermarkEncoder(

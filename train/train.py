@@ -1,6 +1,9 @@
 """Training entry point."""
 
 import argparse
+import random
+
+import numpy as np
 import yaml
 import torch
 from torch.utils.data import DataLoader, random_split
@@ -18,14 +21,30 @@ def load_config(path):
         return yaml.safe_load(f)
 
 
+def set_seed(seed):
+    random.seed(seed)
+    np.random.seed(seed)
+    torch.manual_seed(seed)
+    if torch.cuda.is_available():
+        torch.cuda.manual_seed_all(seed)
+
+
 def main():
     parser = argparse.ArgumentParser(description="Train deep watermark baseline")
     parser.add_argument("--config", type=str, default="configs/train.yaml")
+    parser.add_argument("--resume", type=str, default=None,
+                        help="Path to checkpoint to resume training from")
     args = parser.parse_args()
 
     config = load_config(args.config)
+
+    seed = config.get("seed", 42)
+    set_seed(seed)
+
     device = "cuda" if torch.cuda.is_available() else "cpu"
-    print(f"Using device: {device}")
+    if device == "cuda":
+        torch.backends.cudnn.benchmark = True
+    print(f"Using device: {device} | Seed: {seed}")
 
     # Dataset
     dataset = ImageDataset(
@@ -62,6 +81,7 @@ def main():
     trainer = Trainer(
         encoder, decoder, attack_layer, criterion,
         train_loader, val_loader, config, device,
+        resume_path=args.resume,
     )
     trainer.train()
 
