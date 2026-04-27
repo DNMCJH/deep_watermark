@@ -1,0 +1,902 @@
+[
+  {
+    "epoch": 1,
+    "lr": 0.0002,
+    "train_loss": 3.500144614113702,
+    "train_image_loss": 0.0018998152712204803,
+    "train_watermark_loss": 0.6996489630805122,
+    "val_psnr": 28.78583230038647,
+    "val_bit_accuracy": 0.49365234375
+  },
+  {
+    "epoch": 2,
+    "lr": 0.0004,
+    "train_loss": 3.4617876874075995,
+    "train_image_loss": 0.0063969825407386655,
+    "train_watermark_loss": 0.6910781429873573,
+    "val_psnr": 19.803762303861713,
+    "val_bit_accuracy": 0.51904296875
+  },
+  {
+    "epoch": 3,
+    "lr": 0.0006000000000000001,
+    "train_loss": 3.431330316596561,
+    "train_image_loss": 0.004812250909809437,
+    "train_watermark_loss": 0.6853036168548796,
+    "val_psnr": 23.145028882919675,
+    "val_bit_accuracy": 0.56396484375
+  },
+  {
+    "epoch": 4,
+    "lr": 0.0008,
+    "train_loss": 3.4270089864730835,
+    "train_image_loss": 0.004624157154466957,
+    "train_watermark_loss": 0.6844769633478589,
+    "val_psnr": 22.150952671445555,
+    "val_bit_accuracy": 0.5517578125
+  },
+  {
+    "epoch": 5,
+    "lr": 0.001,
+    "train_loss": 3.4257026182280645,
+    "train_image_loss": 0.005260470730718225,
+    "train_watermark_loss": 0.6840884337822596,
+    "val_psnr": 19.692684159044852,
+    "val_bit_accuracy": 0.55859375
+  },
+  {
+    "epoch": 6,
+    "lr": 0.000999726628670463,
+    "train_loss": 3.3999718692567615,
+    "train_image_loss": 0.006534168962389231,
+    "train_watermark_loss": 0.6786875410212411,
+    "val_psnr": 22.70396004215294,
+    "val_bit_accuracy": 0.5732421875
+  },
+  {
+    "epoch": 7,
+    "lr": 0.0009989068136093873,
+    "train_loss": 3.372996356752184,
+    "train_image_loss": 0.005606917948979471,
+    "train_watermark_loss": 0.6734778847959306,
+    "val_psnr": 21.401939653588187,
+    "val_bit_accuracy": 0.53173828125
+  },
+  {
+    "epoch": 8,
+    "lr": 0.0009975414512725057,
+    "train_loss": 3.3315434720781116,
+    "train_image_loss": 0.00680805681945963,
+    "train_watermark_loss": 0.6649470842546887,
+    "val_psnr": 21.249199444949404,
+    "val_bit_accuracy": 0.57861328125
+  },
+  {
+    "epoch": 9,
+    "lr": 0.0009956320346634876,
+    "train_loss": 3.2515757944848804,
+    "train_image_loss": 0.008256569517672889,
+    "train_watermark_loss": 0.6486638420157962,
+    "val_psnr": 20.367654471693697,
+    "val_bit_accuracy": 0.6318359375
+  },
+  {
+    "epoch": 10,
+    "lr": 0.000993180651701361,
+    "train_loss": 3.2187100450197854,
+    "train_image_loss": 0.00748215979223864,
+    "train_watermark_loss": 0.6422455757856369,
+    "val_psnr": 19.995124603925515,
+    "val_bit_accuracy": 0.62158203125
+  },
+  {
+    "epoch": 11,
+    "lr": 0.0009901899829374045,
+    "train_loss": 3.157492114437951,
+    "train_image_loss": 0.008667344628419314,
+    "train_watermark_loss": 0.629764950937695,
+    "val_psnr": 20.126344628839266,
+    "val_bit_accuracy": 0.64794921875
+  },
+  {
+    "epoch": 12,
+    "lr": 0.0009866632986240027,
+    "train_loss": 3.131888747215271,
+    "train_image_loss": 0.008502522431727912,
+    "train_watermark_loss": 0.6246772425042258,
+    "val_psnr": 18.759045870882535,
+    "val_bit_accuracy": 0.6611328125
+  },
+  {
+    "epoch": 13,
+    "lr": 0.0009826044551386741,
+    "train_loss": 3.094660222530365,
+    "train_image_loss": 0.008780439591242207,
+    "train_watermark_loss": 0.6171759516000748,
+    "val_psnr": 21.111655389724234,
+    "val_bit_accuracy": 0.65771484375
+  },
+  {
+    "epoch": 14,
+    "lr": 0.0009780178907671786,
+    "train_loss": 3.0463618304994373,
+    "train_image_loss": 0.008762491815206077,
+    "train_watermark_loss": 0.6075198666916953,
+    "val_psnr": 19.628852398452867,
+    "val_bit_accuracy": 0.650390625
+  },
+  {
+    "epoch": 15,
+    "lr": 0.0009729086208503171,
+    "train_loss": 3.0276223156187267,
+    "train_image_loss": 0.008441330476974448,
+    "train_watermark_loss": 0.6038361969921324,
+    "val_psnr": 20.583111271065945,
+    "val_bit_accuracy": 0.68017578125
+  },
+  {
+    "epoch": 16,
+    "lr": 0.0009672822322997303,
+    "train_loss": 2.9985746343930564,
+    "train_image_loss": 0.008336126455105841,
+    "train_watermark_loss": 0.5980477018488778,
+    "val_psnr": 19.173924190143428,
+    "val_bit_accuracy": 0.615234375
+  },
+  {
+    "epoch": 17,
+    "lr": 0.0009611448774886923,
+    "train_loss": 2.9512970911131964,
+    "train_image_loss": 0.010354002860064307,
+    "train_watermark_loss": 0.58818861676587,
+    "val_psnr": 20.62890646254523,
+    "val_bit_accuracy": 0.68701171875
+  },
+  {
+    "epoch": 18,
+    "lr": 0.0009545032675245813,
+    "train_loss": 2.9523157477378845,
+    "train_image_loss": 0.01026763919637435,
+    "train_watermark_loss": 0.5884096241659589,
+    "val_psnr": 19.460047960862795,
+    "val_bit_accuracy": 0.69677734375
+  },
+  {
+    "epoch": 19,
+    "lr": 0.0009473646649103817,
+    "train_loss": 2.8178413576549954,
+    "train_image_loss": 0.010756764431587525,
+    "train_watermark_loss": 0.5614169190327326,
+    "val_psnr": 18.56617134606388,
+    "val_bit_accuracy": 0.71875
+  },
+  {
+    "epoch": 20,
+    "lr": 0.0009397368756032445,
+    "train_loss": 2.79574101501041,
+    "train_image_loss": 0.010647892796744904,
+    "train_watermark_loss": 0.5570186211003197,
+    "val_psnr": 19.418266544751955,
+    "val_bit_accuracy": 0.69384765625
+  },
+  {
+    "epoch": 21,
+    "lr": 0.0009316282404787868,
+    "train_loss": 2.708645284175873,
+    "train_image_loss": 0.011066662561562326,
+    "train_watermark_loss": 0.5395157270961337,
+    "val_psnr": 19.490692834824767,
+    "val_bit_accuracy": 0.7568359375
+  },
+  {
+    "epoch": 22,
+    "lr": 0.0009230476262104676,
+    "train_loss": 2.6399661832385592,
+    "train_image_loss": 0.01083613166378604,
+    "train_watermark_loss": 0.5258260079556041,
+    "val_psnr": 20.07042989675896,
+    "val_bit_accuracy": 0.7607421875
+  },
+  {
+    "epoch": 23,
+    "lr": 0.0009140044155740099,
+    "train_loss": 2.6039465996954174,
+    "train_image_loss": 0.011234214167214103,
+    "train_watermark_loss": 0.5185424768262439,
+    "val_psnr": 18.920464954102215,
+    "val_bit_accuracy": 0.7783203125
+  },
+  {
+    "epoch": 24,
+    "lr": 0.0009045084971874736,
+    "train_loss": 2.4874264068073697,
+    "train_image_loss": 0.01169526636497014,
+    "train_watermark_loss": 0.4951462306910091,
+    "val_psnr": 18.878745232463565,
+    "val_bit_accuracy": 0.798828125
+  },
+  {
+    "epoch": 25,
+    "lr": 0.0008945702546981967,
+    "train_loss": 2.5550237231784396,
+    "train_image_loss": 0.01146675299646126,
+    "train_watermark_loss": 0.5087113918529617,
+    "val_psnr": 19.17136173426365,
+    "val_bit_accuracy": 0.80078125
+  },
+  {
+    "epoch": 26,
+    "lr": 0.0008842005554284294,
+    "train_loss": 2.3344034949938455,
+    "train_image_loss": 0.012602616101503372,
+    "train_watermark_loss": 0.46436017586125267,
+    "val_psnr": 19.054389036605375,
+    "val_bit_accuracy": 0.79052734375
+  },
+  {
+    "epoch": 27,
+    "lr": 0.0008734107384920768,
+    "train_loss": 2.447619312339359,
+    "train_image_loss": 0.013114535042809116,
+    "train_watermark_loss": 0.486900952955087,
+    "val_psnr": 18.513558929381595,
+    "val_bit_accuracy": 0.8291015625
+  },
+  {
+    "epoch": 28,
+    "lr": 0.0008622126023955444,
+    "train_loss": 2.2612244519922466,
+    "train_image_loss": 0.014028245427956184,
+    "train_watermark_loss": 0.4494392399986585,
+    "val_psnr": 17.86728920836135,
+    "val_bit_accuracy": 0.80712890625
+  },
+  {
+    "epoch": 29,
+    "lr": 0.0008506183921362442,
+    "train_loss": 2.3224174877007804,
+    "train_image_loss": 0.014675108353710838,
+    "train_watermark_loss": 0.4615484732720587,
+    "val_psnr": 18.071718924143845,
+    "val_bit_accuracy": 0.8330078125
+  },
+  {
+    "epoch": 30,
+    "lr": 0.0008386407858128705,
+    "train_loss": 2.220366954803467,
+    "train_image_loss": 0.01440094318240881,
+    "train_watermark_loss": 0.4411931973364618,
+    "val_psnr": 18.06932007621149,
+    "val_bit_accuracy": 0.85546875
+  },
+  {
+    "epoch": 31,
+    "lr": 0.0008262928807620842,
+    "train_loss": 2.0707546141412525,
+    "train_image_loss": 0.014147784923099808,
+    "train_watermark_loss": 0.41132136351532406,
+    "val_psnr": 18.691905937332113,
+    "val_bit_accuracy": 0.85546875
+  },
+  {
+    "epoch": 32,
+    "lr": 0.0008135881792367684,
+    "train_loss": 2.0567049086093903,
+    "train_image_loss": 0.014597290221394764,
+    "train_watermark_loss": 0.4084215255247222,
+    "val_psnr": 18.094386922469994,
+    "val_bit_accuracy": 0.86669921875
+  },
+  {
+    "epoch": 33,
+    "lr": 0.0008005405736415125,
+    "train_loss": 1.974542197253969,
+    "train_image_loss": 0.014541457303696208,
+    "train_watermark_loss": 0.39200014703803593,
+    "val_psnr": 18.75154230305899,
+    "val_bit_accuracy": 0.85009765625
+  },
+  {
+    "epoch": 34,
+    "lr": 0.0007871643313414718,
+    "train_loss": 2.019228160381317,
+    "train_image_loss": 0.014612458413466811,
+    "train_watermark_loss": 0.40092313869131935,
+    "val_psnr": 18.14790000257129,
+    "val_bit_accuracy": 0.85009765625
+  },
+  {
+    "epoch": 35,
+    "lr": 0.0007734740790612134,
+    "train_loss": 1.9339585933420393,
+    "train_image_loss": 0.01663045774007009,
+    "train_watermark_loss": 0.38346562700139153,
+    "val_psnr": 17.067366385502666,
+    "val_bit_accuracy": 0.84130859375
+  },
+  {
+    "epoch": 36,
+    "lr": 0.0007594847868906075,
+    "train_loss": 1.9773557285467784,
+    "train_image_loss": 0.017073147981945012,
+    "train_watermark_loss": 0.3920565148194631,
+    "val_psnr": 17.799566535518764,
+    "val_bit_accuracy": 0.88037109375
+  },
+  {
+    "epoch": 37,
+    "lr": 0.0007452117519152539,
+    "train_loss": 1.7439970705244277,
+    "train_image_loss": 0.016916083430664405,
+    "train_watermark_loss": 0.34541619651847416,
+    "val_psnr": 17.87802966860866,
+    "val_bit_accuracy": 0.87646484375
+  },
+  {
+    "epoch": 38,
+    "lr": 0.0007306705814893438,
+    "train_loss": 1.693331887324651,
+    "train_image_loss": 0.016531793426515326,
+    "train_watermark_loss": 0.33536002039909363,
+    "val_psnr": 18.024480659807143,
+    "val_bit_accuracy": 0.865234375
+  },
+  {
+    "epoch": 39,
+    "lr": 0.0007158771761692463,
+    "train_loss": 1.538613561126921,
+    "train_image_loss": 0.017058838934948046,
+    "train_watermark_loss": 0.3043109393782086,
+    "val_psnr": 17.75677958086001,
+    "val_bit_accuracy": 0.90966796875
+  },
+  {
+    "epoch": 40,
+    "lr": 0.0007008477123264846,
+    "train_loss": 1.6559112204445734,
+    "train_image_loss": 0.01666260826297932,
+    "train_watermark_loss": 0.32784972505437004,
+    "val_psnr": 17.80577284930582,
+    "val_bit_accuracy": 0.91015625
+  },
+  {
+    "epoch": 41,
+    "lr": 0.0006855986244591101,
+    "train_loss": 1.7394095328119066,
+    "train_image_loss": 0.016713281394913793,
+    "train_watermark_loss": 0.34453925117850304,
+    "val_psnr": 17.365907207406188,
+    "val_bit_accuracy": 0.91064453125
+  },
+  {
+    "epoch": 42,
+    "lr": 0.0006701465872208213,
+    "train_loss": 1.6696868737538655,
+    "train_image_loss": 0.016564101601640385,
+    "train_watermark_loss": 0.33062455761763787,
+    "val_psnr": 17.99559896730071,
+    "val_bit_accuracy": 0.92138671875
+  },
+  {
+    "epoch": 43,
+    "lr": 0.0006545084971874735,
+    "train_loss": 1.373693072133594,
+    "train_image_loss": 0.016970882295734353,
+    "train_watermark_loss": 0.2713444373673863,
+    "val_psnr": 17.510463963509494,
+    "val_bit_accuracy": 0.9345703125
+  },
+  {
+    "epoch": 44,
+    "lr": 0.0006387014543809222,
+    "train_loss": 1.5619499584039052,
+    "train_image_loss": 0.016732861443112295,
+    "train_watermark_loss": 0.30904341902997756,
+    "val_psnr": 17.558660926072577,
+    "val_bit_accuracy": 0.93212890625
+  },
+  {
+    "epoch": 45,
+    "lr": 0.0006227427435703994,
+    "train_loss": 1.4773775074217055,
+    "train_image_loss": 0.017689828295260668,
+    "train_watermark_loss": 0.29193753666347927,
+    "val_psnr": 17.314063810131465,
+    "val_bit_accuracy": 0.94287109375
+  },
+  {
+    "epoch": 46,
+    "lr": 0.0006066498153718733,
+    "train_loss": 1.3854917486508687,
+    "train_image_loss": 0.017138320228291884,
+    "train_watermark_loss": 0.2736706853740745,
+    "val_psnr": 17.51396499012872,
+    "val_bit_accuracy": 0.95458984375
+  },
+  {
+    "epoch": 47,
+    "lr": 0.0005904402671660547,
+    "train_loss": 1.4324903570943408,
+    "train_image_loss": 0.01779364815188779,
+    "train_watermark_loss": 0.2829393384357293,
+    "val_psnr": 17.56820214601358,
+    "val_bit_accuracy": 0.9619140625
+  },
+  {
+    "epoch": 48,
+    "lr": 0.0005741318238559207,
+    "train_loss": 1.3215759313768811,
+    "train_image_loss": 0.01773889559424586,
+    "train_watermark_loss": 0.2607674056457149,
+    "val_psnr": 17.348165609819425,
+    "val_bit_accuracy": 0.96337890625
+  },
+  {
+    "epoch": 49,
+    "lr": 0.000557742318484793,
+    "train_loss": 1.4465129392014608,
+    "train_image_loss": 0.017876021926187806,
+    "train_watermark_loss": 0.2857273812923167,
+    "val_psnr": 17.505842632045628,
+    "val_bit_accuracy": 0.96240234375
+  },
+  {
+    "epoch": 50,
+    "lr": 0.0005412896727361661,
+    "train_loss": 1.2926564266284306,
+    "train_image_loss": 0.017835369799286127,
+    "train_watermark_loss": 0.254964214646154,
+    "val_psnr": 17.586699892739148,
+    "val_bit_accuracy": 0.96435546875
+  },
+  {
+    "epoch": 51,
+    "lr": 0.0005247918773366111,
+    "train_loss": 1.1615962949064043,
+    "train_image_loss": 0.018023332994845178,
+    "train_watermark_loss": 0.22871459068523514,
+    "val_psnr": 17.331621270970416,
+    "val_bit_accuracy": 0.966796875
+  },
+  {
+    "epoch": 52,
+    "lr": 0.000508266972383179,
+    "train_loss": 1.1029992087019815,
+    "train_image_loss": 0.01754530007019639,
+    "train_watermark_loss": 0.21709078260593945,
+    "val_psnr": 17.49164119509626,
+    "val_bit_accuracy": 0.96337890625
+  },
+  {
+    "epoch": 53,
+    "lr": 0.0004917330276168206,
+    "train_loss": 1.1987007425891028,
+    "train_image_loss": 0.017293847114261653,
+    "train_watermark_loss": 0.2362813771598869,
+    "val_psnr": 17.437155981471967,
+    "val_bit_accuracy": 0.9638671875
+  },
+  {
+    "epoch": 54,
+    "lr": 0.00047520812266338875,
+    "train_loss": 1.3754402697086334,
+    "train_image_loss": 0.01721547305997875,
+    "train_watermark_loss": 0.2716449590192901,
+    "val_psnr": 17.637732861030152,
+    "val_bit_accuracy": 0.96630859375
+  },
+  {
+    "epoch": 55,
+    "lr": 0.00045871032726383374,
+    "train_loss": 1.362952270441585,
+    "train_image_loss": 0.017452020353327196,
+    "train_watermark_loss": 0.26910005054540104,
+    "val_psnr": 17.57284070312056,
+    "val_bit_accuracy": 0.97119140625
+  },
+  {
+    "epoch": 56,
+    "lr": 0.00044225768151520694,
+    "train_loss": 1.2382345464494493,
+    "train_image_loss": 0.017863192595541477,
+    "train_watermark_loss": 0.24407427344057295,
+    "val_psnr": 17.27188503502863,
+    "val_bit_accuracy": 0.9697265625
+  },
+  {
+    "epoch": 57,
+    "lr": 0.00042586817614407885,
+    "train_loss": 1.4199136826727126,
+    "train_image_loss": 0.017987326356685825,
+    "train_watermark_loss": 0.2803852707147598,
+    "val_psnr": 17.512027846193774,
+    "val_bit_accuracy": 0.9609375
+  },
+  {
+    "epoch": 58,
+    "lr": 0.000409559732833945,
+    "train_loss": 1.2660422441032197,
+    "train_image_loss": 0.018125471141603258,
+    "train_watermark_loss": 0.24958335235714912,
+    "val_psnr": 17.194308098571213,
+    "val_bit_accuracy": 0.951171875
+  },
+  {
+    "epoch": 59,
+    "lr": 0.00039335018462812653,
+    "train_loss": 1.2130434115727742,
+    "train_image_loss": 0.018574871278057497,
+    "train_watermark_loss": 0.23889370676543978,
+    "val_psnr": 17.29105198320814,
+    "val_bit_accuracy": 0.96826171875
+  },
+  {
+    "epoch": 60,
+    "lr": 0.00037725725642960036,
+    "train_loss": 1.1877622157335281,
+    "train_image_loss": 0.018486910913553502,
+    "train_watermark_loss": 0.23385506040520138,
+    "val_psnr": 17.231505432705177,
+    "val_bit_accuracy": 0.9775390625
+  },
+  {
+    "epoch": 61,
+    "lr": 0.0003612985456190777,
+    "train_loss": 1.1606702705224354,
+    "train_image_loss": 0.017882275032914348,
+    "train_watermark_loss": 0.22855759950147736,
+    "val_psnr": 17.58893554772162,
+    "val_bit_accuracy": 0.9716796875
+  },
+  {
+    "epoch": 62,
+    "lr": 0.00034549150281252633,
+    "train_loss": 1.2156030552254782,
+    "train_image_loss": 0.017892484553158283,
+    "train_watermark_loss": 0.23954211589362887,
+    "val_psnr": 17.521972999102285,
+    "val_bit_accuracy": 0.982421875
+  },
+  {
+    "epoch": 63,
+    "lr": 0.00032985341277917837,
+    "train_loss": 1.1419613063335419,
+    "train_image_loss": 0.018089514329201646,
+    "train_watermark_loss": 0.22477435568968454,
+    "val_psnr": 17.429875848937332,
+    "val_bit_accuracy": 0.970703125
+  },
+  {
+    "epoch": 64,
+    "lr": 0.0003144013755408895,
+    "train_loss": 1.0514181984795465,
+    "train_image_loss": 0.018316811209337577,
+    "train_watermark_loss": 0.20662027452554968,
+    "val_psnr": 17.656832478614238,
+    "val_bit_accuracy": 0.9755859375
+  },
+  {
+    "epoch": 65,
+    "lr": 0.00029915228767351523,
+    "train_loss": 1.0566180927885904,
+    "train_image_loss": 0.018073909915983677,
+    "train_watermark_loss": 0.20770883560180664,
+    "val_psnr": 17.447436124984208,
+    "val_bit_accuracy": 0.982421875
+  },
+  {
+    "epoch": 66,
+    "lr": 0.0002841228238307535,
+    "train_loss": 0.9047505640321307,
+    "train_image_loss": 0.018156347796320915,
+    "train_watermark_loss": 0.17731884287463295,
+    "val_psnr": 17.2912703376867,
+    "val_bit_accuracy": 0.9794921875
+  },
+  {
+    "epoch": 67,
+    "lr": 0.0002693294185106561,
+    "train_loss": 0.9529918515019946,
+    "train_image_loss": 0.018203159897691674,
+    "train_watermark_loss": 0.18695773825877243,
+    "val_psnr": 17.304970151963055,
+    "val_bit_accuracy": 0.986328125
+  },
+  {
+    "epoch": 68,
+    "lr": 0.0002547882480847459,
+    "train_loss": 0.9648682723442713,
+    "train_image_loss": 0.018268950904409092,
+    "train_watermark_loss": 0.18931986784769428,
+    "val_psnr": 17.06894188867231,
+    "val_bit_accuracy": 0.96826171875
+  },
+  {
+    "epoch": 69,
+    "lr": 0.00024051521310939234,
+    "train_loss": 1.1498202623592482,
+    "train_image_loss": 0.01833945160938634,
+    "train_watermark_loss": 0.22629615995619032,
+    "val_psnr": 17.30007602420531,
+    "val_bit_accuracy": 0.9873046875
+  },
+  {
+    "epoch": 70,
+    "lr": 0.00022652592093878662,
+    "train_loss": 1.1291751654611693,
+    "train_image_loss": 0.018517026884688273,
+    "train_watermark_loss": 0.22213162895705965,
+    "val_psnr": 17.215648278274635,
+    "val_bit_accuracy": 0.98583984375
+  },
+  {
+    "epoch": 71,
+    "lr": 0.00021283566865852818,
+    "train_loss": 1.0888249493307538,
+    "train_image_loss": 0.01848940494366818,
+    "train_watermark_loss": 0.21406711037788126,
+    "val_psnr": 17.293684585009238,
+    "val_bit_accuracy": 0.98974609375
+  },
+  {
+    "epoch": 72,
+    "lr": 0.00019945942635848742,
+    "train_loss": 1.0868752582205667,
+    "train_image_loss": 0.018444556328985427,
+    "train_watermark_loss": 0.2136861419098245,
+    "val_psnr": 17.188050456142204,
+    "val_bit_accuracy": 0.98095703125
+  },
+  {
+    "epoch": 73,
+    "lr": 0.00018641182076323146,
+    "train_loss": 0.7997291576531198,
+    "train_image_loss": 0.01839252695855167,
+    "train_watermark_loss": 0.15626732694605985,
+    "val_psnr": 17.296786367826034,
+    "val_bit_accuracy": 0.9912109375
+  },
+  {
+    "epoch": 74,
+    "lr": 0.00017370711923791563,
+    "train_loss": 0.9021345915065871,
+    "train_image_loss": 0.018479489773097966,
+    "train_watermark_loss": 0.17673101752168602,
+    "val_psnr": 17.40900225019345,
+    "val_bit_accuracy": 0.98974609375
+  },
+  {
+    "epoch": 75,
+    "lr": 0.00016135921418712954,
+    "train_loss": 0.9699189066886902,
+    "train_image_loss": 0.018408246907509036,
+    "train_watermark_loss": 0.19030213418106237,
+    "val_psnr": 17.466320786606307,
+    "val_bit_accuracy": 0.99072265625
+  },
+  {
+    "epoch": 76,
+    "lr": 0.0001493816078637557,
+    "train_loss": 0.7848833377162615,
+    "train_image_loss": 0.01821620177684559,
+    "train_watermark_loss": 0.15333342676361403,
+    "val_psnr": 17.284540929614657,
+    "val_bit_accuracy": 0.98876953125
+  },
+  {
+    "epoch": 77,
+    "lr": 0.00013778739760445552,
+    "train_loss": 1.0312177083558507,
+    "train_image_loss": 0.018213939853012562,
+    "train_watermark_loss": 0.2026007545904981,
+    "val_psnr": 17.403880452232805,
+    "val_bit_accuracy": 0.990234375
+  },
+  {
+    "epoch": 78,
+    "lr": 0.0001265892615079232,
+    "train_loss": 0.8914529664648904,
+    "train_image_loss": 0.01834622325582637,
+    "train_watermark_loss": 0.17462134754492176,
+    "val_psnr": 17.396415498582595,
+    "val_bit_accuracy": 0.990234375
+  },
+  {
+    "epoch": 79,
+    "lr": 0.00011579944457157041,
+    "train_loss": 0.8814258277416229,
+    "train_image_loss": 0.017999870909584895,
+    "train_watermark_loss": 0.17268519227703413,
+    "val_psnr": 17.7084687166575,
+    "val_bit_accuracy": 0.99267578125
+  },
+  {
+    "epoch": 80,
+    "lr": 0.00010542974530180325,
+    "train_loss": 1.0872031425436337,
+    "train_image_loss": 0.018145557079050276,
+    "train_watermark_loss": 0.21381151696874034,
+    "val_psnr": 17.51152632947625,
+    "val_bit_accuracy": 0.98974609375
+  },
+  {
+    "epoch": 81,
+    "lr": 9.549150281252631e-05,
+    "train_loss": 0.9046259315477477,
+    "train_image_loss": 0.018119812115199037,
+    "train_watermark_loss": 0.17730122225152123,
+    "val_psnr": 17.3689352052668,
+    "val_bit_accuracy": 0.9912109375
+  },
+  {
+    "epoch": 82,
+    "lr": 8.599558442598996e-05,
+    "train_loss": 0.6393773853778839,
+    "train_image_loss": 0.018096153469135363,
+    "train_watermark_loss": 0.12425624599887265,
+    "val_psnr": 17.529036216651107,
+    "val_bit_accuracy": 0.9970703125
+  },
+  {
+    "epoch": 83,
+    "lr": 7.695237378953233e-05,
+    "train_loss": 0.9009130630228255,
+    "train_image_loss": 0.01792944160600503,
+    "train_watermark_loss": 0.17659672411779562,
+    "val_psnr": 17.402471958695656,
+    "val_bit_accuracy": 0.98974609375
+  },
+  {
+    "epoch": 84,
+    "lr": 6.837175952121303e-05,
+    "train_loss": 0.9560208933220969,
+    "train_image_loss": 0.018084952814711466,
+    "train_watermark_loss": 0.1875871881428692,
+    "val_psnr": 17.305996590054733,
+    "val_bit_accuracy": 0.99658203125
+  },
+  {
+    "epoch": 85,
+    "lr": 6.02631243967555e-05,
+    "train_loss": 0.9366972363657422,
+    "train_image_loss": 0.018060318401290312,
+    "train_watermark_loss": 0.18372738589015272,
+    "val_psnr": 17.476973206813888,
+    "val_bit_accuracy": 0.99658203125
+  },
+  {
+    "epoch": 86,
+    "lr": 5.2635335089618244e-05,
+    "train_loss": 0.6363980447252592,
+    "train_image_loss": 0.018222858818868797,
+    "train_watermark_loss": 0.12363503645691606,
+    "val_psnr": 17.309524962523195,
+    "val_bit_accuracy": 0.994140625
+  },
+  {
+    "epoch": 87,
+    "lr": 4.549673247541884e-05,
+    "train_loss": 0.8134814186228646,
+    "train_image_loss": 0.018107602890166972,
+    "train_watermark_loss": 0.15907476490570438,
+    "val_psnr": 17.437027683132044,
+    "val_bit_accuracy": 0.998046875
+  },
+  {
+    "epoch": 88,
+    "lr": 3.885512251130761e-05,
+    "train_loss": 0.7745425196157562,
+    "train_image_loss": 0.018040318766401872,
+    "train_watermark_loss": 0.151300437334511,
+    "val_psnr": 17.52283490562164,
+    "val_bit_accuracy": 0.99560546875
+  },
+  {
+    "epoch": 89,
+    "lr": 3.2717767700269504e-05,
+    "train_loss": 0.787799240814315,
+    "train_image_loss": 0.01789280767035153,
+    "train_watermark_loss": 0.1539812849627601,
+    "val_psnr": 17.533926415868777,
+    "val_bit_accuracy": 0.99755859375
+  },
+  {
+    "epoch": 90,
+    "lr": 2.709137914968267e-05,
+    "train_loss": 0.8062333779202567,
+    "train_image_loss": 0.01795874536037445,
+    "train_watermark_loss": 0.15765492783652413,
+    "val_psnr": 17.42822160612642,
+    "val_bit_accuracy": 0.998046875
+  },
+  {
+    "epoch": 91,
+    "lr": 2.198210923282117e-05,
+    "train_loss": 0.8399443593290117,
+    "train_image_loss": 0.018020940685851708,
+    "train_watermark_loss": 0.16438468421498934,
+    "val_psnr": 17.59014250675512,
+    "val_bit_accuracy": 0.99169921875
+  },
+  {
+    "epoch": 92,
+    "lr": 1.7395544861325714e-05,
+    "train_loss": 0.839454810652468,
+    "train_image_loss": 0.017912319706132013,
+    "train_watermark_loss": 0.16430849851005608,
+    "val_psnr": 17.477649531390817,
+    "val_bit_accuracy": 0.99658203125
+  },
+  {
+    "epoch": 93,
+    "lr": 1.3336701375997126e-05,
+    "train_loss": 0.8639891851279471,
+    "train_image_loss": 0.017858667402631707,
+    "train_watermark_loss": 0.16922610397968027,
+    "val_psnr": 17.683278991916744,
+    "val_bit_accuracy": 0.99267578125
+  },
+  {
+    "epoch": 94,
+    "lr": 9.810017062595319e-06,
+    "train_loss": 0.8428957793447707,
+    "train_image_loss": 0.017834982369095087,
+    "train_watermark_loss": 0.1650121576256222,
+    "val_psnr": 17.58735137949478,
+    "val_bit_accuracy": 0.99267578125
+  },
+  {
+    "epoch": 95,
+    "lr": 6.819348298638836e-06,
+    "train_loss": 0.7271635366810693,
+    "train_image_loss": 0.01786337782525354,
+    "train_watermark_loss": 0.14186003286805418,
+    "val_psnr": 17.578255680686368,
+    "val_bit_accuracy": 0.9970703125
+  },
+  {
+    "epoch": 96,
+    "lr": 4.367965336512401e-06,
+    "train_loss": 0.7236956225501167,
+    "train_image_loss": 0.017931980546563864,
+    "train_watermark_loss": 0.14115272959073386,
+    "val_psnr": 17.402826903286986,
+    "val_bit_accuracy": 0.998046875
+  },
+  {
+    "epoch": 97,
+    "lr": 2.458548727494291e-06,
+    "train_loss": 0.8719162353210979,
+    "train_image_loss": 0.0178534178994596,
+    "train_watermark_loss": 0.1708125619010793,
+    "val_psnr": 17.647386151451652,
+    "val_bit_accuracy": 0.99755859375
+  },
+  {
+    "epoch": 98,
+    "lr": 1.0931863906127321e-06,
+    "train_loss": 0.6468375151356062,
+    "train_image_loss": 0.017830836897095043,
+    "train_watermark_loss": 0.1258013372619947,
+    "val_psnr": 17.647491992403474,
+    "val_bit_accuracy": 0.99560546875
+  },
+  {
+    "epoch": 99,
+    "lr": 2.733713295369754e-07,
+    "train_loss": 0.6315475685728921,
+    "train_image_loss": 0.017886027952449188,
+    "train_watermark_loss": 0.12273230962455273,
+    "val_psnr": 17.587233352731786,
+    "val_bit_accuracy": 0.99609375
+  },
+  {
+    "epoch": 100,
+    "lr": 0.0,
+    "train_loss": 0.7781866126590304,
+    "train_image_loss": 0.01786107507844766,
+    "train_watermark_loss": 0.15206510780586135,
+    "val_psnr": 17.5072892236764,
+    "val_bit_accuracy": 0.9970703125
+  }
+]
